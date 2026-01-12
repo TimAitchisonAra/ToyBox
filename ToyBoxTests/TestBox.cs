@@ -44,8 +44,7 @@ namespace ToyBoxTests
 
             string expected = "A box containing 2 toys\na brown colored Teddy worth $12.34\na pink colored Doll worth $34.56";
             string actual = theBox.ToString();
-            Console.Write(actual);
-
+           
             Assert.That(expected, Is.EqualTo(actual));
         }
     }
