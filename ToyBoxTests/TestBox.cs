@@ -1,4 +1,5 @@
-﻿using ToyBox;
+﻿using NUnit.Framework;
+using ToyBox;
 
 namespace ToyBoxTests
 {
@@ -19,16 +20,20 @@ namespace ToyBoxTests
             int expected = 0;
             int actual = theBox.GetToyCount();
 
-            Assert.Equals(expected, actual);
+            Assert.That(expected, Is.EqualTo(actual));
         }
 
         [Test]
         public void ToyBox_AddingToys_IncreasesToyCount()
         {
-            int expected = 0;
+            theBox.AddToy("Teddy", "brown", 12.34M);
+            theBox.AddToy("Doll", "pink", 34.56M);     
+
+            int expected = 2;
             int actual = theBox.GetToyCount();
 
-            Assert.Equals(expected, actual);
+
+            Assert.That(expected, Is.EqualTo(actual));
         }
     }
 }
