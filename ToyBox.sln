@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyBox", "ToyBox\ToyBox.csproj", "{9DD87679-A570-4216-800C-5063DEFFE120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyBoxTests", "ToyBoxTests\ToyBoxTests.csproj", "{5A2A49D4-17E2-428F-B280-5B924D2918D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD87679-A570-4216-800C-5063DEFFE120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD87679-A570-4216-800C-5063DEFFE120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD87679-A570-4216-800C-5063DEFFE120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD87679-A570-4216-800C-5063DEFFE120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A49D4-17E2-428F-B280-5B924D2918D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A49D4-17E2-428F-B280-5B924D2918D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A49D4-17E2-428F-B280-5B924D2918D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A49D4-17E2-428F-B280-5B924D2918D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C267090E-BFBA-421F-B477-165E36BAB308}
+	EndGlobalSection
+EndGlobal
