@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace ToyBox
+﻿namespace ToyBox
 {
     public class Box
     {
